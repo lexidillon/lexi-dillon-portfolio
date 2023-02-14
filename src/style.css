@@ -66,6 +66,7 @@ i {
 
 .lets-work-together {
   background: var(--accent-color);
+  padding: 20px 40px;
 }
 
 @media (max-width: 576px) {
@@ -83,6 +84,10 @@ i {
     padding: 10px 20px;
   }
   .header-image {
-    margin-top: 20px;
+    display: none;
+  }
+  .hero {
+    padding: 70px 30px;
+    line-height: 1;
   }
 }
