@@ -1,0 +1,37 @@
+:root {
+  --main-color: #2d767f;
+  --light-color: #ecfffb;
+  --accent-color: #b4f1f1;
+  --dark-color: #1e6262;
+  --heading-font-family: "Montserrat Alternates", sans-serif;
+  --sub-text-font-family: "Josefin Sans", sans-serif;
+}
+
+h1 {
+  font-family: var(--heading-font-family);
+  font-weight: 600;
+  font-size: 80px;
+  color: #ecfffb;
+  -webkit-text-stroke: 3px var(--dark-color);
+}
+
+h2 {
+  font-family: var(--sub-text-font-family);
+  font-size: 35px;
+  color: var(--light-color);
+  opacity: 0.8;
+}
+
+.btn-info {
+  font-size: 20px;
+  margin: 15px;
+  padding: 15px 30px;
+  opacity: 0.8;
+  font-family: var(--sub-text-font-family);
+}
+
+.hero {
+  background: var(--main-color);
+  padding: 150px 60px;
+  line-height: 1.5;
+}
