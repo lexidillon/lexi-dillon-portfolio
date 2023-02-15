@@ -1,42 +1,58 @@
 :root {
-  --main-color: #2d767f;
-  --light-color: #ecfffb;
-  --accent-color: #b4f1f1;
-  --dark-color: #1e6262;
-  --heading-font-family: "Montserrat Alternates", sans-serif;
+  --primary-color: #4d727e;
+  --dark-color: #1f4e5f;
+  --light-color: #f4f7f7;
+  --accent-color: #79a8a9;
+  --heading-font-family: "Raleway", sans-serif;
+  --secondary-font-family: "Open Sans", sans-serif;
   --sub-text-font-family: "Josefin Sans", sans-serif;
 }
 
-footer {
-  background: var(--light-color);
+body {
+  background-color: var(--light-color);
+}
+
+footer p {
+  color: var(--dark-color);
 }
 
 h1 {
   font-family: var(--heading-font-family);
   font-weight: 600;
   font-size: 80px;
-  color: var(--main-color);
-  -webkit-text-stroke: 3px var(--accent-color);
+  color: var(--dark-color);
 }
 
 h2 {
-  font-family: var(--sub-text-font-family);
-  font-size: 35px;
-  color: var(--main-color);
-  opacity: 0.8;
+  font-family: var(--secondary-font-family);
+  font-size: 30px;
+  color: var(--dark-color);
   line-height: 1.3;
 }
 
 i {
+  color: var(--light-color);
+  font-size: 18px;
+  padding: 10px 14px;
+  background-color: var(--dark-color);
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+  margin: 30px 10px;
+}
+
+i:hover {
   color: var(--dark-color);
+  background-color: var(--light-color);
 }
 
 .btn-info {
-  font-size: 20px;
+  font-size: 16px;
   margin: 15px;
   padding: 15px 30px;
-  opacity: 0.8;
-  font-family: var(--sub-text-font-family);
+  opacity: 0.7;
+  font-family: var(--secondary-font-family);
+  background-color: var(--primary-color) !important;
+  border-radius: 10px !important;
 }
 
 .contact-icons {
@@ -48,25 +64,54 @@ i {
   text-decoration: none;
 }
 
+.featured-projects img {
+  margin: 0 auto;
+  display: block;
+}
+
 .header-content {
   text-align: center;
+}
+
+.header-content h1 {
+  -webkit-text-stroke: 1px var(--light-color);
+}
+
+.header-content h2 {
+  color: var(--light-color);
 }
 
 .header-image {
   margin: 0 auto;
   display: block;
-  border-radius: 4px;
+  border-radius: 10px;
 }
 
 .hero {
-  background: var(--light-color);
-  padding: 150px 60px;
+  background: var(--accent-color);
+  padding: 180px 60px 130px 60px;
   line-height: 1.5;
 }
 
 .lets-work-together {
   background: var(--accent-color);
   padding: 20px 40px;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+
+.navbar {
+  background: #f4f7f7 !important;
+}
+
+.navbar-brand a {
+  color: var(--dark-color) !important;
+}
+
+.nav-item a {
+  color: var(--dark-color) !important;
+  font-family: var(--secondary-font-family) !important;
+  margin: 0px 25px;
 }
 
 @media (max-width: 576px) {
