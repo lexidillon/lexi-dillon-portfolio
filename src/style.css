@@ -45,7 +45,8 @@ i:hover {
   line-height: 1.5;
 }
 
-.about-title {
+.about-title,
+.resume-page-title {
   color: var(--dark-color);
   font-family: var(--heading-font-family);
   font-weight: 600;
@@ -124,7 +125,8 @@ i:hover {
 .homepage-subtitle,
 .about-subtitle,
 .project-title,
-.work-tagline {
+.work-tagline,
+.resume-category {
   font-family: var(--secondary-font-family);
   font-size: 30px;
   color: var(--dark-color);
@@ -164,6 +166,77 @@ i:hover {
   color: var(--dark-color) !important;
   font-family: var(--secondary-font-family) !important;
   margin: 0px 25px;
+}
+
+.resume-category {
+  border-bottom: 1px solid var(--dark-color);
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.resume-closing {
+  color: var(--dark-color);
+}
+
+.resume-content {
+  text-align: left;
+  font-family: var(--heading-font-family);
+  line-height: 1.25em;
+}
+
+.resume-date {
+  text-align: right;
+  font-family: var(--secondary-font-family);
+}
+
+.resume-location a {
+  opacity: 70%;
+  transition: all 100ms ease-in-out;
+  color: var(--dark-color);
+}
+
+.resume-location a:hover {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.resume-section {
+  padding: 130px 60px 60px 60px;
+}
+
+.resume-subtext {
+  font-family: var(--sub-text-font-family);
+  font-weight: 200;
+  font-size: 14px;
+  color: var(--primary-color);
+  opacity: 0.7;
+}
+
+.resume-title {
+  font-family: var(--heading-font-family);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.skills-section {
+  padding: 0px 80px;
+  margin: 0 200px;
+}
+
+.skills-section h2 {
+  color: var(--dark-color);
+  font-family: var(--heading-font-family);
+  font-weight: 600;
+  font-size: 70px;
+}
+
+.skills-title {
+  font-family: var(--sub-text-font-family);
+  font-weight: 300;
+  font-size: 18px;
+  color: var(--primary-color);
 }
 
 .work-icons {
