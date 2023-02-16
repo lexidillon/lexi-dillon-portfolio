@@ -33,6 +33,10 @@ i:hover {
   opacity: 0.7;
 }
 
+li {
+  list-style: none;
+}
+
 .about-links,
 .project-links {
   margin: 0 auto;
@@ -68,6 +72,29 @@ i:hover {
   text-align: center;
 }
 
+.contact-icon-titles:hover {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.contact-page-icons {
+  text-align: center;
+}
+
+.contact-section {
+  padding: 140px 60px 0px 60px;
+}
+
+.email-address-link {
+  color: var(--dark-color);
+  transition: all 100ms ease-in-out;
+}
+
+.email-address-link:hover {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
 .featured-project-link:hover {
   text-decoration: none;
 }
@@ -101,21 +128,27 @@ i:hover {
 }
 
 .my-work-section {
-  background: rgb(121, 168, 169, 0.9);
   padding: 140px 60px 0px 60px;
+}
+
+.my-work-section,
+.contact-section {
+  background: rgb(121, 168, 169, 0.9);
   line-height: 1.5;
 }
 
 .homepage-title,
 .my-story-title,
-.my-work-title {
+.my-work-title,
+.contact-title {
   -webkit-text-stroke: 1px var(--light-color);
 }
 
 .homepage-title,
 .project-section-title,
 .my-story-title,
-.my-work-title {
+.my-work-title,
+.contact-title {
   font-family: var(--heading-font-family);
   font-weight: 600;
   font-size: 80px;
@@ -126,7 +159,9 @@ i:hover {
 .about-subtitle,
 .project-title,
 .work-tagline,
-.resume-category {
+.resume-category,
+.contact-tagline,
+.contact-icon-titles {
   font-family: var(--secondary-font-family);
   font-size: 30px;
   color: var(--dark-color);
