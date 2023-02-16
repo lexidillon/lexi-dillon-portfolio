@@ -157,12 +157,21 @@ i:hover {
 }
 
 @media (max-width: 576px) {
-  h1 {
+  .homepage-title,
+  .about-title,
+  .project-section-title,
+  .my-story-title {
     font-size: 50px;
   }
-  h2 {
+  .homepage-subtitle,
+  .about-subtitle,
+  .my-story-content,
+  .project-title {
     font-size: 20px;
     line-height: 1;
+  }
+  .my-story-content {
+    margin: 10px;
   }
   i {
     background-color: var(--dark-color);
@@ -174,10 +183,12 @@ i:hover {
     margin: 10px;
     padding: 10px 20px;
   }
-  .header-image {
+  .header-image,
+  .about-me-image {
     width: 200px;
   }
-  .hero {
+  .hero,
+  .about-hero {
     padding: 120px 30px 50px 30px;
     line-height: 1;
   }
