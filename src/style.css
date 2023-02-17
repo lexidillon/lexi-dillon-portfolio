@@ -78,7 +78,7 @@ li {
 }
 
 .contact-page-icons {
-  text-align: center;
+  text-align: left;
 }
 
 .contact-section {
@@ -104,17 +104,11 @@ li {
   display: block;
 }
 
-.header-content,
-.about-content {
-  text-align: center;
-}
-
 .header-content h2 {
   color: var(--light-color);
 }
 
-.header-image,
-.about-me-image,
+.lexi-image,
 .about-images {
   margin: 0 auto;
   display: block;
@@ -122,7 +116,7 @@ li {
 }
 
 .hero {
-  background: rgb(121, 168, 169, 0.9);
+  background: rgb(121, 168, 169, 0.7);
   padding: 180px 60px 130px 60px;
   line-height: 1.5;
 }
@@ -137,41 +131,14 @@ li {
   line-height: 1.5;
 }
 
-.homepage-title,
-.my-story-title,
-.my-work-title,
-.contact-title {
+.highlighted-headline {
   -webkit-text-stroke: 1px var(--light-color);
-}
-
-.homepage-title,
-.project-section-title,
-.my-story-title,
-.my-work-title,
-.contact-title {
-  font-family: var(--heading-font-family);
-  font-weight: 600;
-  font-size: 80px;
-  color: var(--dark-color);
-}
-
-.homepage-subtitle,
-.about-subtitle,
-.project-title,
-.work-tagline,
-.resume-category,
-.contact-tagline,
-.contact-icon-titles {
-  font-family: var(--secondary-font-family);
-  font-size: 30px;
-  color: var(--dark-color);
-  line-height: 1.3;
 }
 
 .lets-work-together {
   background: var(--accent-color);
   padding: 20px 40px;
-  opacity: 0.9;
+  opacity: 0.7;
   border-radius: 10px;
 }
 
@@ -199,7 +166,7 @@ li {
 
 .nav-item a {
   color: var(--dark-color) !important;
-  font-family: var(--secondary-font-family) !important;
+  font-family: var(--heading-font-family) !important;
   margin: 0px 25px;
 }
 
@@ -274,6 +241,20 @@ li {
   color: var(--primary-color);
 }
 
+.subtitle {
+  font-family: var(--secondary-font-family);
+  font-size: 30px;
+  color: var(--dark-color);
+  line-height: 1.3;
+}
+
+.title {
+  font-family: var(--heading-font-family);
+  font-weight: 600;
+  font-size: 80px;
+  color: var(--dark-color);
+}
+
 .work-icons {
   color: var(--light-color);
   background-color: var(--dark-color);
@@ -284,16 +265,10 @@ li {
 }
 
 @media (max-width: 576px) {
-  .homepage-title,
-  .about-title,
-  .project-section-title,
-  .my-story-title {
+  .title {
     font-size: 50px;
   }
-  .homepage-subtitle,
-  .about-subtitle,
-  .my-story-content,
-  .project-title {
+  .subtitle {
     font-size: 20px;
     line-height: 1;
   }
