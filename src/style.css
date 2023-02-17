@@ -49,14 +49,6 @@ li {
   line-height: 1.5;
 }
 
-.about-title,
-.resume-page-title {
-  color: var(--dark-color);
-  font-family: var(--heading-font-family);
-  font-weight: 600;
-  font-size: 80px;
-}
-
 .btn-info {
   font-size: 16px;
   margin: 15px;
@@ -164,7 +156,7 @@ li {
 
 .my-work-section .subtitle {
   font-size: 20px;
-  margin: 0px 70px;
+  margin: 0px 130px;
 }
 
 .navbar {
