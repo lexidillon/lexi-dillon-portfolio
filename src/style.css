@@ -104,6 +104,10 @@ li {
   display: block;
 }
 
+.first-nav-item {
+  margin-left: 530px !important;
+}
+
 .header-content h2 {
   color: var(--light-color);
 }
@@ -171,7 +175,7 @@ li {
 .nav-item a {
   color: var(--dark-color) !important;
   font-family: var(--heading-font-family) !important;
-  margin: 0px 25px;
+  margin: 0px 10px;
   transition: all 100ms ease-in-out;
 }
 
