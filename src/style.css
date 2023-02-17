@@ -21,7 +21,7 @@ i {
   border: 2px solid var(--dark-color);
   color: var(--dark-color);
   font-size: 18px;
-  padding: 10px 14px;
+  padding: 10px 12px;
   border-radius: 50%;
   transition: all 100ms ease-in-out;
   margin: 30px 10px;
@@ -65,6 +65,19 @@ li {
   font-family: var(--secondary-font-family);
   background-color: var(--primary-color) !important;
   border-radius: 10px !important;
+  transition: all 100ms ease-in-out;
+}
+
+.btn-info:hover {
+  background-color: var(--dark-color) !important;
+}
+
+.contact-box {
+  background: var(--accent-color);
+  padding: 20px 40px;
+  opacity: 0.7;
+  border-radius: 10px;
+  margin: 0px 90px;
 }
 
 .contact-icons {
@@ -104,19 +117,8 @@ li {
   display: block;
 }
 
-.first-nav-item {
-  margin-left: 530px !important;
-}
-
 .header-content h2 {
   color: var(--light-color);
-}
-
-.lexi-image,
-.about-images {
-  margin: 0 auto;
-  display: block;
-  border-radius: 10px;
 }
 
 .hero {
@@ -126,7 +128,7 @@ li {
 }
 
 .my-work-section {
-  padding: 140px 60px 0px 60px;
+  padding: 150px 60px 80px 60px;
 }
 
 .my-work-section,
@@ -139,10 +141,10 @@ li {
   -webkit-text-stroke: 1px var(--light-color);
 }
 
-.lets-work-together {
-  background: var(--accent-color);
-  padding: 20px 40px;
-  opacity: 0.7;
+.lexi-image,
+.about-images {
+  margin: 0 auto;
+  display: block;
   border-radius: 10px;
 }
 
@@ -158,6 +160,11 @@ li {
   background: rgb(121, 168, 169, 0.9);
   padding: 70px 60px 130px 60px;
   line-height: 1.5;
+}
+
+.my-work-section .subtitle {
+  font-size: 20px;
+  margin: 0px 70px;
 }
 
 .navbar {
@@ -277,41 +284,52 @@ li {
   background-color: var(--dark-color);
   opacity: 0.7;
   font-size: 16px;
-  padding: 10px 14px;
+  padding: 10px 12px;
   border-radius: 50%;
 }
 
 @media (max-width: 576px) {
-  .title {
-    font-size: 50px;
-  }
-  .subtitle {
-    font-size: 20px;
-    line-height: 1;
-  }
-  .my-story-content {
-    margin: 10px;
-  }
-  i {
-    background-color: var(--dark-color);
-    opacity: 0.7;
-    color: var(--light-color);
-  }
   .btn-info {
     font-size: 15px;
     margin: 10px;
     padding: 10px 20px;
   }
+
+  .contact-box {
+    display: none;
+  }
+
+  .featured-projects h2 {
+    font-weight: bold;
+  }
+
   .header-image,
   .about-me-image {
     width: 200px;
   }
+
   .hero,
   .about-hero {
     padding: 120px 30px 50px 30px;
     line-height: 1;
   }
-  .featured-projects h2 {
-    font-weight: bold;
+
+  i {
+    background-color: var(--dark-color);
+    opacity: 0.7;
+    color: var(--light-color);
+  }
+
+  .my-story-content {
+    margin: 10px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  .title {
+    font-size: 50px;
   }
 }
