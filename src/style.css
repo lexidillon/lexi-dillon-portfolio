@@ -295,8 +295,7 @@ li {
     font-weight: bold;
   }
 
-  .header-image,
-  .about-me-image {
+  .lexi-image {
     width: 200px;
   }
 
@@ -314,6 +313,20 @@ li {
 
   .my-story-content {
     margin: 10px;
+    font-size: 16px;
+  }
+
+  .my-story-section {
+    padding: 50px 60px 70px 60px;
+  }
+
+  .my-work-section {
+    padding: 150px 60px 50px 60px;
+  }
+
+  .my-work-section .subtitle {
+    font-size: 16px;
+    margin: 0px;
   }
 
   .subtitle {
