@@ -82,12 +82,24 @@ li {
   color: var(--primary-color);
 }
 
+.contact-image {
+  margin: 0 auto;
+  display: block;
+}
+
 .contact-page-icons {
   text-align: left;
 }
 
 .contact-section {
-  padding: 140px 60px 0px 60px;
+  padding: 140px 60px 60px 60px;
+}
+
+.contact-subtitle {
+  font-family: var(--secondary-font-family);
+  font-size: 18px;
+  color: var(--dark-color);
+  line-height: 1.3;
 }
 
 .email-address-link {
@@ -296,6 +308,14 @@ li {
 
   .contact-box {
     display: none;
+  }
+
+  .contact-image {
+    width: 200px;
+  }
+
+  .contact-subtitle {
+    font-size: 14px;
   }
 
   .featured-projects h2 {
