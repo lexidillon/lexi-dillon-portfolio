@@ -154,10 +154,10 @@ li {
 
 .my-story-content {
   font-family: var(--secondary-font-family);
-  font-size: 20px;
+  font-size: 18px;
   color: var(--light-color);
-  line-height: 1.3;
-  margin: 30px 150px;
+  line-height: 1.7;
+  margin: 30px 170px;
 }
 
 .my-story-section {
@@ -196,6 +196,11 @@ li {
 
 .nav-item .active {
   color: black !important;
+}
+
+.project-info {
+  font-family: var(--heading-font-family);
+  line-height: 1.8;
 }
 
 .resume-category {
@@ -250,9 +255,13 @@ li {
   letter-spacing: 0.05em;
 }
 
-.skills-section {
-  padding: 0px 80px;
+.skills-content {
   margin: 0 200px;
+}
+
+.skills-section {
+  padding: 10px 80px;
+  background: rgb(121, 168, 169, 0.9);
 }
 
 .skills-section h2 {
@@ -356,12 +365,26 @@ li {
     margin: 0px;
   }
 
+  .skills-content {
+    margin: 0 50px;
+  }
+
+  .skills-title {
+    font-size: 14px;
+  }
+
+  .skills-section .work-icons {
+    font-size: 12px;
+    padding: 5px 6px;
+  }
+
   .subtitle {
     font-size: 20px;
     line-height: 1;
   }
 
-  .title {
+  .title,
+  .skills-content h2 {
     font-size: 50px;
   }
 }
