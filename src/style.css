@@ -97,6 +97,11 @@ li {
   padding: 140px 60px 60px 60px;
 }
 
+.contact-section p {
+  color: var(--dark-color);
+  opacity: 0.6;
+}
+
 .contact-subtitle {
   font-family: var(--secondary-font-family);
   font-size: 18px;
