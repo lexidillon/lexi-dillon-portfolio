@@ -138,6 +138,10 @@ li {
   line-height: 1.5;
 }
 
+.hero p {
+  color: var(--dark-color);
+}
+
 .my-work-section {
   padding: 170px 60px 100px 60px;
 }
