@@ -222,10 +222,6 @@ li {
   padding-bottom: 10px;
 }
 
-.resume-closing {
-  color: var(--dark-color);
-}
-
 .resume-content {
   text-align: left;
   font-family: var(--heading-font-family);
@@ -250,6 +246,11 @@ li {
 
 .resume-section {
   padding: 130px 60px 60px 60px;
+}
+
+.resume-opening {
+  color: var(--dark-color);
+  font-family: var(--heading-font-family);
 }
 
 .resume-subtext {
