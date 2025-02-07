@@ -354,9 +354,10 @@ li {
     padding: 10px;
   }
 
-  .subtitle {
+  .hero .subtitle {
     font-size: 20px;
     margin: 60px 10px;
+    line-height: 1.5;
   }
 
   .title {
@@ -415,7 +416,7 @@ li {
 
   .my-story-content {
     margin: 10px;
-    font-size: 12px;
+    font-size: 18px;
   }
 
   .my-story-section {
