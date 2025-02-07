@@ -356,10 +356,11 @@ li {
 
   .subtitle {
     font-size: 20px;
+    margin: 60px 20px;
   }
 
   .title {
-    font-size: 55px;
+    font-size: 65px;
   }
 }
 
@@ -391,20 +392,24 @@ li {
     font-weight: bold;
   }
 
-  .lexi-image {
-    width: 200px;
-  }
-
   .hero,
   .about-hero {
-    padding: 120px 30px 50px 30px;
+    padding: 140px 30px 60px 30px;
     line-height: 1;
+  }
+
+  .hero p {
+    font-size: 15px;
   }
 
   i {
     background-color: var(--dark-color);
     opacity: 0.7;
     color: var(--light-color);
+  }
+
+  .lexi-image {
+    width: 200px;
   }
 
   .my-story-content {
@@ -455,13 +460,13 @@ li {
   }
 
   .subtitle {
-    font-size: 20px;
+    font-size: 25px;
     line-height: 1;
   }
 
   .title,
   .skills-content h2 {
-    font-size: 50px;
+    font-size: 65px;
   }
 
   .work-subtitle {
