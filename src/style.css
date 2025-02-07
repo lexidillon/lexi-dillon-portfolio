@@ -394,12 +394,12 @@ li {
 
   .hero,
   .about-hero {
-    padding: 140px 20px 60px 20px;
+    padding: 150px 20px 60px 20px;
     line-height: 1;
   }
 
   .hero p {
-    font-size: 15px;
+    display: none;
   }
 
   i {
@@ -409,7 +409,8 @@ li {
   }
 
   .lexi-image {
-    width: 200px;
+    width: 300px;
+    margin-top: 60px;
   }
 
   .my-story-content {
